@@ -1,15 +1,30 @@
-# Chat-Server-ChatServer.java-
-Chat server in LAN
+# 💬 Java Local Chat with Sockets
 
- 
-How to Use
-Compile both files:
-javac ChatServer.java ChatClient.java
+This is a simple **local network chat application** built in **Java** using **TCP sockets**. It includes both **server and client** programs, enabling multiple users to communicate with each other through a common server.
 
-Run the server in one terminal:
-java ChatServer
+## 📌 Features
 
-Run the client in another terminal:
-java ChatClient
+- Real-time messaging between multiple clients
+- Console-based interface
+- Handles multiple connections with multithreading
+- Local network compatible
+- Lightweight and beginner-friendly
 
-You can run multiple clients to simulate a group chat. Each client will send messages that are broadcasted to all others via the server.
+---
+
+## 🧠 Technologies Used
+
+- Java SE (Standard Edition)
+- `java.net` (Socket, ServerSocket)
+- Multithreading (`Thread`)
+- Console I/O (`BufferedReader`, `PrintWriter`)
+
+---
+
+## 🛠️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/java-socket-chat.git
+cd java-socket-chat
