@@ -62,7 +62,7 @@ Agatha: Hello!
 
 [Client 2]
 Enter your name: Rafael
-💬 Alice: Hello!
+💬 Agatha: Hello!
 Rafael: Hi Agatha!
 ```
 
